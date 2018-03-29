@@ -1,0 +1,1275 @@
+Vinicius Rangel [5:04 PM]
+Como você faz pra saber se um pacote é confiável?
+
+R: sibelius [21 hours ago]
+número de stars
+
+
+sibelius [21 hours ago]
+criador do package
+
+
+sibelius [21 hours ago]
+usamos mesmo que não confiável
+
+-------------------
+
+nicholasess [5:09 PM]
+Quais são suas dificuldades hoje com React Native?
+
+R:sibelius [21 hours ago]
+maiores dificuldades são no android
+
+
+sibelius [21 hours ago]
+overflow não funciona no android, mas resolvemos em parte com uma bridge nativa
+
+
+sibelius [21 hours ago]
+vai ser open source em breve
+
+
+sibelius [21 hours ago]
+animations com o debug ligado no android quase não funciona, díficil debugar
+
+
+sibelius [21 hours ago]
+upgrades de versão do react native ou de packages nativos ainda não é tão simples
+
+
+sibelius [21 hours ago]
+evite cocoapods
+
+-------------------
+
+matheus_gsilva [5:12 PM]
+O que vc acha que será o futuro do js?
+
+R: sibelius [21 hours ago]
+js é a melhor linguagem hoje
+
+
+sibelius [21 hours ago]
+js é o “ingles” das linguagens de programação
+
+
+sibelius [21 hours ago]
+como js é feito por um comite ele tende a evoluir sempre
+
+
+sibelius [21 hours ago]
+devido as necessidades de diversos grupos
+
+-------------------
+
+Marlon [5:13 PM]
+A técnica de Microfrontend está esquentando em vários blogs, você tem alguma indicação ou contra-indicação?
+
+R:sibelius [21 hours ago]
+eu não usaria iframe \o/
+
+
+
+sibelius [21 hours ago]
+estamos usando uma técnica que carrega uma página inteira e coloca num componente
+
+
+sibelius [21 hours ago]
+vamos fazer open source em breve
+
+
+sibelius [21 hours ago]
+o @joao é o responsável por isso
+
+
+
+sibelius [21 hours ago]
+a dificuldade é como fazer a comunicação entre os diversos microfrontends
+
+
+sibelius [21 hours ago]
+cada 1 com tradeoffs
+
+
+Marlon [21 hours ago]
+Isso não teria várias instancias do react no DOM?
+
+
+sibelius [21 hours ago]
+não, vc tem diversos entrypoints
+
+
+joao [20 hours ago]
+o DOM é compartilhado
+
+
+joao [18 hours ago]
+https://github.com/react-brasil/reactconfbr/issues/21#issuecomment-377065927
+
+-------------------
+
+Erick Maeda [5:14 PM]
+Com o crescimento do Flutter vc acha que irá se tornar um forte adversário do React Native?
+
+R: sibelius [21 hours ago]
+ainda é cedo para discutir isso
+
+
+sibelius [21 hours ago]
+mas o Facebook tem acertado bastante
+
+
+sibelius [21 hours ago]
+enquanto que o Google nem tanto na parte de frontend
+
+
+sibelius [21 hours ago]
+o React é um conceito
+
+
+sibelius [21 hours ago]
+flutter não é tanto
+
+
+sibelius [21 hours ago]
+a melhor parte do react native é o React
+
+
+sibelius [21 hours ago]
+Async React vai revolucionar ainda mais o React Native
+
+-------------------
+
+Marlon [5:14 PM]
+Qual sua opinião sobre o Apollo 2?
+
+R: sibelius [21 hours ago]
+apollo 2 melhorou bastante a performance em relação ao apollo 1
+
+
+sibelius [21 hours ago]
+talvez ficou mais rápido que o relay classic
+
+
+sibelius [21 hours ago]
+mas ainda é bem mais lento que o relay modern
+
+
+sibelius [21 hours ago]
+relay modern chega a ser até 10x mais rápido de acordo com alguns devs
+
+-------------------
+
+Vinicius Rangel [5:14 PM]
+Quando você vai desenvolver um app quais as ferramentas não podem faltar?
+Ex: Redux, Native-Base etc..
+
+R: sibelius [21 hours ago]
+react-native
+
+
+sibelius [21 hours ago]
+graphql
+
+
+sibelius [21 hours ago]
+relay
+
+
+sibelius [21 hours ago]
+styled-components (fazemos o estilo na mão mesmo), escala melhor
+
+
+Vinicius Rangel [21 hours ago]
+redux não?
+
+
+sibelius [21 hours ago]
+usamos redux para local state
+
+
+sibelius [21 hours ago]
+mas já estamos pensando em usar só relay para lidar com isso
+
+-------------------
+
+lmsfelipe [5:16 PM]
+O uso de Relay ou Apollo anula a necessidade de Redux?
+
+R: sibelius [21 hours ago]
+voce pode continuar usando o redux para o estado local
+
+
+sibelius [21 hours ago]
+recomendo aprender redux para melhorar o jeito de programar
+
+
+sibelius [21 hours ago]
+tanto o relay
+
+
+sibelius [21 hours ago]
+como o apollo
+
+
+sibelius [21 hours ago]
+tem soluções para lidar com state local
+
+
+sibelius [21 hours ago]
+https://github.com/facebook/relay/issues/1656
+
+-------------------
+
+guilherme.lopes [5:18 PM]
+Para react-native você já utilizou NativeBase? Usaria novamente, sim não e porque? O fato de conseguir criar layouts(themes) não é melhor para escalar do que styled-components?
+
+R:sibelius [21 hours ago]
+sempre criamos do zero
+
+
+
+sibelius [21 hours ago]
+usando styled-components
+
+
+sibelius [21 hours ago]
+mais fácil de customizar
+
+
+sibelius [21 hours ago]
+para as necessidades de cada projeto
+
+
+sibelius [21 hours ago]
+sempre tentamos reutilizar components de outros projetos
+
+
+sibelius [21 hours ago]
+usando storybook para tornar isso possível
+
+
+sibelius [21 hours ago]
+na web e no react-native
+
+-------------------
+
+lmsfelipe [5:23 PM]
+Como vc lida com o compartilhamento de componentes entre projetos?
+
+R: sibelius [21 hours ago]
+ainda não compartilhamos muitos components entre projetos
+
+
+sibelius [21 hours ago]
+por enquanto estamos no ctrl+c ctrl+v
+
+
+sibelius [21 hours ago]
+mas já usando um package npm para conseguir lidar com isso também
+
+
+sibelius [21 hours ago]
+outra ideia seria usar um monorepo
+
+
+sibelius [21 hours ago]
+com um package commons do projeto
+
+
+sibelius [21 hours ago]
+mini/micro packages para cada componente pode ser válido também
+
+
+sibelius [21 hours ago]
+https://blog.expo.io/universe-exponents-code-base-f12fa236b8e
+
+-------------------
+
+Bruno Sato [5:23 PM]
+O voce acha sobre a lib react-native-web tem que evoluir muito ainda?
+
+R: sibelius [21 hours ago]
+react-native-web tem bastante potencial
+
+
+sibelius [21 hours ago]
+tem bastante gente que usa
+
+
+sibelius [21 hours ago]
+mas ainda não mexemos muito com isso
+
+
+sibelius [21 hours ago]
+tem o react-xp também
+
+
+sibelius [21 hours ago]
+da microsoft
+
+-------------------
+
+Erick Maeda [5:24 PM]
+Qual a melhor solução para navegação de screens no react-native ?
+
+R: sibelius [21 hours ago]
+react-navigation?
+
+
+sibelius [21 hours ago]
+ele é o mais customizável por enquanto
+
+
+sibelius [21 hours ago]
+tem as navigation nativas, mas eu prefiro fazer tudo em js mesmo
+
+
+sibelius [21 hours ago]
+para customizar com custom transitions é bem mais simples
+
+-------------------
+
+brunolemos [5:26 PM]
+@sibelius qual o impacto do open source na sua vida profissional?
+
+R: sibelius [21 hours ago]
+open source tem um impacta incrível na vida profissional
+
+
+sibelius [21 hours ago]
+se vc ainda não contribuiu contribua
+
+
+sibelius [21 hours ago]
+eu demorei para descobrir o open source
+
+
+sibelius [21 hours ago]
+universidades deveriam falar mais sobre isso
+
+
+
+sibelius [21 hours ago]
+talvez até uma materia só para contribuir para open source
+
+
+sibelius [21 hours ago]
+já consegui diversos freelas só por ter diversas contribuções open source (edited)
+
+
+
+sibelius [21 hours ago]
+já ganhei muito dinheiro por trabalhar de “graca” no open source
+
+
+sibelius [21 hours ago]
+segue uma contribuição open source que me trouxe diversos contatos https://github.com/facebook/react-native/releases/tag/v0.25.1
+GitHub
+facebook/react-native
+react-native - A framework for building native apps with React.
+ 
+ 
+
+
+sibelius [21 hours ago]
+meu codemod no release notes do RN
+
+sibelius [21 hours ago]
+é bom também para você se tornar um desenvolver melhor
+
+-------------------
+
+Jabur [5:31 PM]
+Recomenda Backends as a service como por exemplo Firebase ou GraphCool?
+
+R: sibelius [21 hours ago]
+neh
+
+
+sibelius [21 hours ago]
+só para prototipos rápidos
+
+
+sibelius [21 hours ago]
+melhor vc mesmo implementar
+
+
+
+sibelius [21 hours ago]
+vc sempre vai bater em um caso que o baas não te atende
+ 
+
+
+sibelius [21 hours ago]
+vc mesmo implementado te torna mais inteligente
+
+
+sibelius [21 hours ago]
+vc vai criando os seus boilerplates
+
+
+sibelius [21 hours ago]
+e acaba sendo até mais rápido do que usar firebase e graphcool
+
+-------------------
+
+Bruno Sato [5:31 PM]
+Como você estuda coisas novas relacionadas a desenvolvimento?
+
+R: sibelius [21 hours ago]
+leio bastante
+
+
+sibelius [21 hours ago]
+sigo bastante dev top no twitter
+
+
+sibelius [21 hours ago]
+leio bastante coisa no medium
+
+
+sibelius [21 hours ago]
+reviso bastante código dos outros
+
+
+sibelius [21 hours ago]
+dou watch em repos
+
+
+sibelius [21 hours ago]
+só para aprender
+
+joao [19 hours ago]
+@Bruno Sato, o @sibelius me ajudou a escrever um artigo que tem a ver com esta pergunta: https://medium.com/entria/how-to-discover-that-you-dont-know-what-you-don-t-know-a6fcff20018
+
+sibelius [19 hours ago]
+https://medium.com/@dan_abramov/my-react-list-862227952a8c
+
+-------------------
+
+lmsfelipe [5:31 PM]
+Formik ou ReduxForm? Por que?
+
+R: sibelius [21 hours ago]
+formik
+
+
+sibelius [21 hours ago]
+redux é para coisas globais
+
+
+sibelius [21 hours ago]
+forms são locais
+
+
+sibelius [21 hours ago]
+formik foi a abstração que faltava para o react
+
+
+sibelius [21 hours ago]
+teve uma epoca do React que tudo que era feito
+
+
+sibelius [21 hours ago]
+era feito com o Redux
+
+
+sibelius [21 hours ago]
+passei por essa fase
+
+
+sibelius [21 hours ago]
+agora aprendemos a usar o setState
+
+
+
+sibelius [21 hours ago]
+e tudo faz mais sentido
+
+
+sibelius [21 hours ago]
+menos complexidade e mais performance
+
+-------------------
+
+Felipe Oliveira [5:32 PM]
+É possível compartilhar elementos entre aplicações web e nativas? Se sim, teria alguma dica para dar?
+
+R: sibelius [21 hours ago]
+o que a galera tem jeito é seguir a ideia do react native (edited)
+
+
+sibelius [21 hours ago]
+.ios
+
+
+sibelius [21 hours ago]
+.android
+
+
+sibelius [21 hours ago]
+.web
+
+
+sibelius [21 hours ago]
+compartilhar boa parte das lógicas
+
+
+sibelius [21 hours ago]
+e só mudar os ui/ux
+
+-------------------
+
+tiagosouto [5:33 PM]
+qual a duvida mais comum ou dificuldade que vc tem observado nas comunidades?
+
+R: sibelius [21 hours ago]
+a galera não sabe debugar muito o problema
+ 
+
+
+sibelius [21 hours ago]
+a galera desiste muito fácil
+
+
+
+sibelius [21 hours ago]
+a galera do RN não sabe nativo
+
+
+
+sibelius [21 hours ago]
+e nem quer tentar aprender
+
+
+
+sibelius [21 hours ago]
+tem diversas dúvidas que realmente não tem respostas certas
+
+
+sibelius [21 hours ago]
+angular vs react vs vuejs por exemplo
+
+
+sibelius [21 hours ago]
+tudo depende
+
+
+sibelius [21 hours ago]
+talvez a galera não saiba qual caminho seguir para conseguir terminar o que gostaria de fazer
+
+
+lucianomlima [20 hours ago]
+Também adicionaria os que pulam etapas de aprendizado, mal sabem React e já querem aprender redux (sem nem mesmo entender para que serve)
+
+-------------------
+
+tiagosouto [5:36 PM]
+quais suas principais fontes de pesquisa para solucionar problemas?
+
+R: sibelius [21 hours ago]
+sigo todo mundo que já postou algo interessante
+
+
+sibelius [21 hours ago]
+toda pessoa pode virar top
+
+
+
+sibelius [21 hours ago]
+deixo o twitter decidir os melhores posts
+
+
+sibelius [21 hours ago]
+quando mais gente vc seguir, mais chances de ver coisas legais e mais recentes primeiro
+
+
+sibelius [21 hours ago]
+o core do React sempre posta coisas legais
+
+
+sibelius [21 hours ago]
+e interesssantes
+
+
+matheus_gsilva [21 hours ago]
+seguir o sibelius e as pessoas que ele retweeta é a melhor coisa :slightly_smiling_face:
+
+-------------------
+
+tiagosouto [5:36 PM]
+quais suas principais fontes de pesquisa para solucionar problemas?
+
+R: sibelius [21 hours ago]
+google
+
+
+sibelius [21 hours ago]
+facebook community
+
+
+sibelius [21 hours ago]
+stack overflow
+
+
+sibelius [21 hours ago]
+github
+
+
+sibelius [21 hours ago]
+pesquisar dentro de códigos de github
+
+
+sibelius [21 hours ago]
+issues github
+
+
+sibelius [21 hours ago]
+criar issues
+
+
+sibelius [21 hours ago]
+usar o slack
+
+
+sibelius [21 hours ago]
+discord
+
+
+sibelius [21 hours ago]
+usar N slacks
+
+
+matheus_gsilva [21 hours ago]
+reactiflux  no discord tbm é uma boa
+
+
+sibelius [21 hours ago]
+perguntar para pessoas
+
+
+sibelius [21 hours ago]
+deixar o tempo passar para voltar no problema
+
+-------------------
+
+matheus_gsilva [5:37 PM]
+Como gerenciar tempo com vida pessoal + 3000 tecnologias pra se estudar + open source? Digo, como definir o que priorizar pra estudar + o que contribuir?
+
+R: sibelius [21 hours ago]
+para mim o backend e frontend já está bem definidos
+
+
+sibelius [21 hours ago]
+front: react, react native, relay, styled-components
+ 
+
+
+sibelius [21 hours ago]
+back: node + graphql
+ 
+
+
+sibelius [21 hours ago]
+a prioridade vem de acordo com os projetos que vc tem que resolver
+
+
+sibelius [21 hours ago]
+se vc só trabalha com projetos complexos vc acaba ficando mais inteligente
+
+
+sibelius [21 hours ago]
+e aprendendo coisas novas justamente para deixar o projeto mais  fácil de ser resolvido
+
+
+sibelius [21 hours ago]
+se vc só fizer landing page, não vai evoluir muito
+
+-------------------
+
+rgazeredo [5:37 PM]
+Em questão de produtividade, vale a pena usar Expo? Ou melhor fazer tudo na mão com react-native init <PROJECT>?
+
+R: sibelius [21 hours ago]
+gosto de fazer tudo na mão
+
+
+sibelius [21 hours ago]
+in house
+
+
+sibelius [21 hours ago]
+vc sempre vai chegar no limite da Expo
+
+
+sibelius [21 hours ago]
+tem o eject
+
+
+
+sibelius [21 hours ago]
+mas depois do eject seria mais fácil começar do react-native puro mesmo
+
+
+sibelius [21 hours ago]
+\o/
+
+
+rgazeredo [21 hours ago]
+exatamente, depois que dou um eject eu travo para continuar a trabalhar no projeto novamente
+
+
+sibelius [21 hours ago]
+eu recomendo evitar cocoapods
+
+-------------------
+
+lmsfelipe [5:40 PM]
+Quais foram suas maiores dificuldades ao abrir sua empresa?
+
+R: sibelius [21 hours ago]
+o @rturk lidou com a parte mais burocratica
+
+
+sibelius [21 hours ago]
+abrir uma empresa é fácil
+
+
+sibelius [21 hours ago]
+deixar ela rodando que é o díficil
+
+
+
+sibelius [21 hours ago]
+abrir e fechar é fácil
+
+
+Vinicius Rangel [21 hours ago]
+hahhahaha vdd
+
+
+Vinicius Rangel [21 hours ago]
+2 contratações erradas me custaram muito caro
+
+
+rturk [21 hours ago]
+Cash is King. No Brasil a empresa pode ser pequena ou grande, como em qualquer lugar do mundo.. Mas é vital você fechar as contas no final do mês
+
+-------------------
+
+Jabur [5:42 PM]
+Porque evitar cocoapods?
+
+R: sibelius [21 hours ago]
+uma das coisas que tornou o js incrível
+
+
+sibelius [21 hours ago]
+foi o npm
+
+
+sibelius [21 hours ago]
+sistema de pacotes
+
+
+sibelius [21 hours ago]
+no objective-c swift temos o cocoapods e o carthage
+
+
+sibelius [21 hours ago]
+eu não gosto do cocoapods, ele cria um .xcworkspace
+
+
+sibelius [21 hours ago]
+e acaba sempre quebrando diversos packages do react-native
+
+
+sibelius [21 hours ago]
+se vc usar pods todos os packages tem que usar
+ 
+
+
+sibelius [21 hours ago]
+muita complexidade por nada
+
+
+sibelius [21 hours ago]
+react-native link FTW
+
+-------------------
+
+Thadeu Esteves Jr [5:42 PM]
+Redux-Sagas ainda faz sentido?
+
+R: sibelius [21 hours ago]
+faz
+
+
+sibelius [21 hours ago]
+https://github.com/kuy/redux-saga-chat-example
+GitHub
+kuy/redux-saga-chat-example
+redux-saga-chat-example - A chat app built with redux-saga and Socket.IO.
+ 
+
+
+sibelius [21 hours ago]
+para fluxo em backgrounds complexos
+
+
+sibelius [21 hours ago]
+é bem legal
+
+
+sibelius [21 hours ago]
+dá para tornar cenários complexos em simples
+
+
+sibelius [21 hours ago]
+mas se usar Relay vc pode reduzir bastante o uso dele
+
+-------------------
+
+Vinicius Rangel [5:43 PM]
+O que você acha dessa disseminação do javascript? algo bom ou ruim?
+O pessoal fala de tanto nome que eu não faço ideia do que é, parece que tem uma infinidade de técnicas e pacotes que se eu parar pra ver tudo eu não consigo produzir
+
+R: sibelius [21 hours ago]
+disseminação do js é incrível
+
+
+
+sibelius [21 hours ago]
+mais diversidade gera mais inovação
+
+
+sibelius [21 hours ago]
+qualquer coisa nova, sempre vai ser implementada primeiro em js
+
+
+sibelius [21 hours ago]
+depois do es6, js ficou incrível
+
+
+
+lucianomlima [20 hours ago]
+Você não precisa aprender tudo, você precisa aprender apenas o que formará sua stack. O resto é adicional… você usa quando necessário
+
+-------------------
+
+Bruno Sato [5:43 PM]
+O voce acha das abstracoes de redux?
+
+R: sibelius [21 hours ago]
+toda abstração tem problemas
+
+
+sibelius [21 hours ago]
+não sinto muito o peso do boilerplate do redux
+
+
+sibelius [21 hours ago]
+mais código não quer dizer que seja problemático
+
+
+sibelius [21 hours ago]
+o ideal é usar redux só para coisas globais
+
+-------------------
+
+Thadeu Esteves Jr [5:45 PM]
+Existem muitas maneiras de estruturar(folders) um projeto do zero, qual a melhor forma na atualidade?
+
+R: sibelius [21 hours ago]
+deixamos todo o source dentro da pasta `/src`
+
+
+
+sibelius [21 hours ago]
+para cada time tem um jeito melhor
+
+
+sibelius [21 hours ago]
+mas recomendo não ser muito nested
+
+
+sibelius [21 hours ago]
+não gosto muito disso aqui
+
+
+sibelius [21 hours ago]
+https://github.com/tleunen/babel-plugin-module-resolver
+GitHub
+tleunen/babel-plugin-module-resolver
+babel-plugin-module-resolver - Custom module resolver plugin for Babel
+ 
+
+
+sibelius [21 hours ago]
+nem sempre funciona bem em todas as IDE
+
+
+sibelius [21 hours ago]
+e quebra algumas coisas
+
+
+sibelius [21 hours ago]
+tipo webpack, jest, metro-bundler
+
+-------------------
+
+padil [5:47 PM]
+Você acha que o react-native vai matar o desenvolvimento nativo ?
+
+R: sibelius [21 hours ago]
+tudo que for layout vai ser feito no RN
+
+
+sibelius [21 hours ago]
+boa parte vai ser RN
+
+
+sibelius [21 hours ago]
+somente partes críticas e coisas que precisem de performances vão ser bridges
+
+
+sibelius [21 hours ago]
+até mesmos jogos poderão ser feitos só em js
+
+
+sibelius [21 hours ago]
+talvez usando react-native-gl
+
+-------------------
+
+guilherme.lopes [5:49 PM]
+O que você acha do WebAssembly, já teve oportunidade de mexer? Como você acha que vai ficar o futuro da web e fora da web com ele?
+
+R: sibelius [21 hours ago]
+ainda não mexi com isso
+
+
+sibelius [21 hours ago]
+vai ser interessante
+
+
+sibelius [21 hours ago]
+todo mundo vai conseguir codar para a web em qualquer linguagem
+
+
+sibelius [21 hours ago]
+eu acho acho melhor continuar usando js
+
+
+sibelius [21 hours ago]
+mesmo que compilando js para webassembly
+
+-------------------
+
+tiagosouto [5:50 PM]
+você acha que os problemas recentes que o facebook está enfrentando podem afetar negativamente de alguma forma o investimento deles em tecnologia open source, ou ainda é muito cedo para pensar nisso?
+
+R: sibelius [21 hours ago]
+acredito que não
+
+
+sibelius [21 hours ago]
+o maior problema era a licença do React e outras
+
+
+sibelius [21 hours ago]
+se não mexer na licença
+
+
+sibelius [21 hours ago]
+tudo certo
+
+-------------------
+
+padil [5:50 PM]
+Voce concorda com o valor que é proposto para o desenvolvimento nativo comparado ao do react-native ?
+
+R: sibelius [21 hours ago]
+qual valor?
+
+
+padil [21 hours ago]
+salarial
+
+
+Jabur [21 hours ago]
+:moneybag:
+
+
+sibelius [21 hours ago]
+quem ganha mais?
+
+
+padil [21 hours ago]
+nativo.
+
+
+padil [21 hours ago]
+pensando apenas em IOS
+
+
+sibelius [21 hours ago]
+ios no Brasil é raro
+
+
+sibelius [21 hours ago]
+díficil achar devs que tenham mac aqui
+
+
+sibelius [21 hours ago]
+nativo é bem mais díficil do que react native
+
+
+sibelius [21 hours ago]
+é tudo questão de oferta e procura
+
+
+sibelius [21 hours ago]
+não só em relação ao nativo vs rn dev
+
+
+sibelius [21 hours ago]
+mas sobre qualquer empresa
+
+
+sibelius [21 hours ago]
+se todo mundo consegue fazer um trabalho, as pessoas pagam pouco mesmo
+
+
+
+sibelius [21 hours ago]
+capitalismo é assim
+
+-------------------
+
+gabrielrubens [5:54 PM]
+pq flow e não typescript?
+
+R: sibelius [21 hours ago]
+Flow é baseado em Occaml
+
+
+
+sibelius [21 hours ago]
+sistema de tipos incrível
+
+
+
+sibelius [21 hours ago]
+soundness
+
+
+sibelius [21 hours ago]
+expressivo
+
+
+sibelius [21 hours ago]
+consigo tipar menos no flow
+
+
+sibelius [21 hours ago]
+nem tudo precisa ser tipado
+
+
+sibelius [21 hours ago]
+uma linguagem moderna deve conseguir inferir os tipos das variaveis
+
+
+sibelius [21 hours ago]
+tipar é cansativo
+
+
+
+sibelius [21 hours ago]
+é mais fácil adicionar Flow num projeto do que TS
+
+
+sibelius [21 hours ago]
+depois do Flow 66 as mensagens de erros ficaram incríveis
+
+
+sibelius [21 hours ago]
+e ficou muito mais rápido
+
+
+sibelius [21 hours ago]
+flow tem suporte nativo para React
+
+
+sibelius [21 hours ago]
+funciona super bem
+
+-------------------
+
+Saulo [5:55 PM]
+pra quem ta começando agora com react qual roadmap vc recomenda de curso/estudo?
+
+R: sibelius [21 hours ago]
+https://github.com/entria/jobs/blob/master/skills.md
+
+
+
+sibelius [21 hours ago]
+https://github.com/petehunt/react-howto
+GitHub
+petehunt/react-howto
+react-howto - Your guide to the (sometimes overwhelming!) React ecosystem.
+ 
+
+
+sibelius [21 hours ago]
+tem esse howto do criador do react
+
+-------------------
+
+Thadeu Esteves Jr [5:56 PM]
+O que esperar para JS e React em 2018?
+
+R: sibelius [21 hours ago]
+async iterator no js é incrível
+
+
+sibelius [21 hours ago]
+abstração super poderosa
+
+
+sibelius [21 hours ago]
+para lidar com observables
+
+
+sibelius [21 hours ago]
+React 2018 mais coisas Async
+
+
+sibelius [21 hours ago]
+apps mais responsivos
+
+
+sibelius [21 hours ago]
+Suspense
+
+
+sibelius [21 hours ago]
+melhor performance para Relay e Apollo
+
+
+sibelius [21 hours ago]
+melhor performance para RN
+
+-------------------
+
+Lucas de Assis [5:57 PM]
+react native ou PWA?
+
+R: sibelius [21 hours ago]
+ambos
+
+
+sibelius [21 hours ago]
+ainda tem muita gente fazendo apps
+
+
+sibelius [21 hours ago]
+acho válido usar analytics
+
+
+sibelius [21 hours ago]
+e medir
+
+
+rturk [21 hours ago]
+PWA ainda não funciona em IOS..
+
+
+Lucas de Assis [21 hours ago]
+pra um app simples que utiliza GPS. Como escolher?
+
+
+sibelius [21 hours ago]
+app simples faz os 2
+
+
+sibelius [21 hours ago]
+eu iria para o react native
+
+
+sibelius [21 hours ago]
+ainda tem algumas polemicas com o PWA por causa da google
+
+
+Pedro Pessoa [20 hours ago]
+@rturk suporta, mas service workers ainda está no beta 4 . N é estavel ainda.
+
+-------------------
+
+enieber [5:57 PM]
+oq vc acha do reasonml para novos projetos?
+
+R: sibelius [21 hours ago]
+ambos
+
+
+sibelius [21 hours ago]
+ainda tem muita gente fazendo apps
+
+
+sibelius [21 hours ago]
+acho válido usar analytics
+
+
+sibelius [21 hours ago]
+e medir
+
+
+rturk [21 hours ago]
+PWA ainda não funciona em IOS..
+
+
+Lucas de Assis [21 hours ago]
+pra um app simples que utiliza GPS. Como escolher?
+
+
+sibelius [21 hours ago]
+app simples faz os 2
+
+
+sibelius [21 hours ago]
+eu iria para o react native
+
+
+sibelius [21 hours ago]
+ainda tem algumas polemicas com o PWA por causa da google
+
+
+Pedro Pessoa [20 hours ago]
+@rturk suporta, mas service workers ainda está no beta 4 . N é estavel ainda.
+
+-------------------
+
+guilherme.lopes [5:59 PM]
+Porque você acha que ainda tem pessoas que utilizam ionic, mesmo em projetos novos?
+
+R: sibelius [21 hours ago]
+medo de inovação
+
+
+sibelius [21 hours ago]
+medo de aprender coisas novas
+
+
+sibelius [21 hours ago]
+mudar é díficil
+
+
+sibelius [21 hours ago]
+know how é complicado
+
+
+sibelius [21 hours ago]
+nem todo mundo quer sair da zona de conforto
