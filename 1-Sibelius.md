@@ -422,16 +422,17 @@ padil:\
 Voce concorda com o valor que é proposto para o desenvolvimento nativo comparado ao do react-native ?
 
 > qual valor?
->> padil:\
->> salarial\
+
+salarial\
+
 >> Jabur:\
 >> :moneybag:\
+
 > quem ganha mais?\
->> padil:\
->> nativo.\
->> padil:\
->> pensando apenas em IOS\ 
-<!-- -->
+
+nativo.\
+pensando apenas em IOS\ 
+
 > ios no Brasil é raro\
 > díficil achar devs que tenham mac aqui\
 > nativo é bem mais díficil do que react native\
