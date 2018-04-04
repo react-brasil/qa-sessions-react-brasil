@@ -1,4 +1,4 @@
-Vinicius Rangel:\
+1. Vinicius Rangel:\
 Como você faz pra saber se um pacote é confiável?
 
 > Número de stars\
@@ -7,7 +7,19 @@ Como você faz pra saber se um pacote é confiável?
 
 -------------------
 
-nicholasess:\
+2. conradoramalho:\
+Relay ou Apollo? Porque?
+
+> Relay Modern\
+> quando começamos a usar o Relay, nem existia o Apollo, 2015/6\
+> Relay Modern compila todas as queries (não deixa erro de query em runtime) isso é incrível\
+> gera flowtype para os fragments, deixando o código mais seguro\
+> e com menos chances de erro de runtime\
+> Relay tem ajuda do React core, eles sempre estão alguns passos a frente do apollo
+
+-------------------
+
+3. nicholasess:\
 Quais são suas dificuldades hoje com React Native?
 
 > maiores dificuldades são no android\
@@ -19,7 +31,7 @@ Quais são suas dificuldades hoje com React Native?
 
 -------------------
 
-matheus_gsilva:\
+4. matheus_gsilva:\
 O que vc acha que será o futuro do js?
 
 > js é a melhor linguagem hoje\
@@ -29,7 +41,7 @@ O que vc acha que será o futuro do js?
 
 -------------------
 
-Marlon:\
+5. Marlon:\
 A técnica de Microfrontend está esquentando em vários blogs, você tem alguma indicação ou contra-indicação?
 
 > eu não usaria iframe \o/\
@@ -48,7 +60,7 @@ Isso não teria várias instancias do react no DOM?
 
 -------------------
 
-Erick Maeda:\
+6. Erick Maeda:\
 Com o crescimento do Flutter vc acha que irá se tornar um forte adversário do React Native?
 
 > ainda é cedo para discutir isso\
@@ -61,7 +73,7 @@ Com o crescimento do Flutter vc acha que irá se tornar um forte adversário do 
 
 -------------------
 
-Marlon:\
+7. Marlon:\
 Qual sua opinião sobre o Apollo 2?
 
 > apollo 2 melhorou bastante a performance em relação ao apollo 1\
@@ -71,7 +83,7 @@ Qual sua opinião sobre o Apollo 2?
 
 -------------------
 
-Vinicius Rangel:\
+8. Vinicius Rangel:\
 Quando você vai desenvolver um app quais as ferramentas não podem faltar?
 Ex: Redux, Native-Base etc..
 
@@ -87,7 +99,7 @@ redux não?
 
 -------------------
 
-lmsfelipe:\
+9. lmsfelipe:\
 O uso de Relay ou Apollo anula a necessidade de Redux?
 
 > voce pode continuar usando o redux para o estado local\
@@ -99,7 +111,7 @@ O uso de Relay ou Apollo anula a necessidade de Redux?
 
 -------------------
 
-guilherme.lopes:\
+10. guilherme.lopes:\
 Para react-native você já utilizou NativeBase? Usaria novamente, sim não e porque? O fato de conseguir criar layouts(themes) não é melhor para escalar do que styled-components?
 
 > sempre criamos do zero\
@@ -112,7 +124,7 @@ Para react-native você já utilizou NativeBase? Usaria novamente, sim não e po
 
 -------------------
 
-lmsfelipe:\
+11. lmsfelipe:\
 Como vc lida com o compartilhamento de componentes entre projetos?
 
 > ainda não compartilhamos muitos components entre projetos\
@@ -125,7 +137,7 @@ Como vc lida com o compartilhamento de componentes entre projetos?
 
 -------------------
 
-Bruno Sato:\
+12. Bruno Sato:\
 O voce acha sobre a lib react-native-web tem que evoluir muito ainda?
 
 > react-native-web tem bastante potencial\
@@ -136,7 +148,7 @@ O voce acha sobre a lib react-native-web tem que evoluir muito ainda?
 
 -------------------
 
-Erick Maeda:\
+13. Erick Maeda:\
 Qual a melhor solução para navegação de screens no react-native ?
 
 > react-navigation?\
@@ -146,7 +158,7 @@ Qual a melhor solução para navegação de screens no react-native ?
 
 -------------------
 
-brunolemos:\
+14. brunolemos:\
 @sibelius qual o impacto do open source na sua vida profissional?
 
 > open source tem um impacta incrível na vida profissional\
@@ -165,7 +177,7 @@ brunolemos:\
 
 -------------------
 
-Jabur:\
+15. Jabur:\
 Recomenda Backends as a service como por exemplo Firebase ou GraphCool?
 
 > neh\
@@ -178,7 +190,7 @@ Recomenda Backends as a service como por exemplo Firebase ou GraphCool?
 
 -------------------
 
-Bruno Sato:\
+16. Bruno Sato:\
 Como você estuda coisas novas relacionadas a desenvolvimento?
 
 > leio bastante\
@@ -194,7 +206,7 @@ Como você estuda coisas novas relacionadas a desenvolvimento?
 
 -------------------
 
-lmsfelipe:\
+17. lmsfelipe:\
 Formik ou ReduxForm? Por que?
 
 > formik\
@@ -210,7 +222,7 @@ Formik ou ReduxForm? Por que?
 
 -------------------
 
-Felipe Oliveira:\
+18. Felipe Oliveira:\
 É possível compartilhar elementos entre aplicações web e nativas? Se sim, teria alguma dica para dar?
 
 > o que a galera tem jeito é seguir a ideia do react native (edited)\
@@ -222,7 +234,7 @@ Felipe Oliveira:\
 
 -------------------
 
-tiagosouto:\
+19. tiagosouto:\
 qual a duvida mais comum ou dificuldade que vc tem observado nas comunidades?
 
 > a galera não sabe debugar muito o problema\
@@ -238,7 +250,7 @@ qual a duvida mais comum ou dificuldade que vc tem observado nas comunidades?
 
 -------------------
 
-tiagosouto:\
+20. tiagosouto:\
 quais suas principais fontes de pesquisa para solucionar problemas?
 
 > sigo todo mundo que já postou algo interessante\
@@ -252,7 +264,7 @@ quais suas principais fontes de pesquisa para solucionar problemas?
 
 -------------------
 
-tiagosouto:\
+21. tiagosouto:\
 quais suas principais fontes de pesquisa para solucionar problemas?
 
 > google\
@@ -272,7 +284,7 @@ quais suas principais fontes de pesquisa para solucionar problemas?
 
 -------------------
 
-matheus_gsilva:\
+22. matheus_gsilva:\
 Como gerenciar tempo com vida pessoal + 3000 tecnologias pra se estudar + open source? Digo, como definir o que priorizar pra estudar + o que contribuir?
 
 
@@ -286,7 +298,7 @@ Como gerenciar tempo com vida pessoal + 3000 tecnologias pra se estudar + open s
 
 -------------------
 
-rgazeredo:\
+23. rgazeredo:\
 Em questão de produtividade, vale a pena usar Expo? Ou melhor fazer tudo na mão com react-native init <PROJECT>?
 
 > gosto de fazer tudo na mão\
@@ -301,7 +313,7 @@ Em questão de produtividade, vale a pena usar Expo? Ou melhor fazer tudo na mã
 
 -------------------
 
-lmsfelipe:\
+24. lmsfelipe:\
 Quais foram suas maiores dificuldades ao abrir sua empresa?
 
 > o @rturk lidou com a parte mais burocratica\
@@ -316,7 +328,7 @@ Quais foram suas maiores dificuldades ao abrir sua empresa?
 
 -------------------
 
-Jabur:\
+25. Jabur:\
 Porque evitar cocoapods?
 
 > uma das coisas que tornou o js incrível\
@@ -331,7 +343,7 @@ Porque evitar cocoapods?
 
 -------------------
 
-Thadeu Esteves Jr:\
+26. Thadeu Esteves Jr:\
 Redux-Sagas ainda faz sentido?
 
 > faz\
@@ -346,7 +358,7 @@ Redux-Sagas ainda faz sentido?
 
 -------------------
 
-Vinicius Rangel:\
+27. Vinicius Rangel:\
 O que você acha dessa disseminação do javascript? algo bom ou ruim?
 O pessoal fala de tanto nome que eu não faço ideia do que é, parece que tem uma infinidade de técnicas e pacotes que se eu parar pra ver tudo eu não consigo produzir
 
@@ -359,7 +371,7 @@ O pessoal fala de tanto nome que eu não faço ideia do que é, parece que tem u
 
 -------------------
 
-Bruno Sato:\
+28. Bruno Sato:\
 O voce acha das abstracoes de redux?
 
 > toda abstração tem problemas\
@@ -369,7 +381,7 @@ O voce acha das abstracoes de redux?
 
 -------------------
 
-Thadeu Esteves Jr:\
+29. Thadeu Esteves Jr:\
 Existem muitas maneiras de estruturar(folders) um projeto do zero, qual a melhor forma na atualidade?
 
 > deixamos todo o source dentro da pasta `/src`\
@@ -386,7 +398,7 @@ Existem muitas maneiras de estruturar(folders) um projeto do zero, qual a melhor
 
 -------------------
 
-padil:\
+30. padil:\
 Você acha que o react-native vai matar o desenvolvimento nativo ?
 
 > tudo que for layout vai ser feito no RN\
@@ -397,7 +409,7 @@ Você acha que o react-native vai matar o desenvolvimento nativo ?
 
 -------------------
 
-guilherme.lopes:\
+31. guilherme.lopes:\
 O que você acha do WebAssembly, já teve oportunidade de mexer? Como você acha que vai ficar o futuro da web e fora da web com ele?
 
 > ainda não mexi com isso\
@@ -408,7 +420,7 @@ O que você acha do WebAssembly, já teve oportunidade de mexer? Como você acha
 
 -------------------
 
-tiagosouto:\
+32. tiagosouto:\
 você acha que os problemas recentes que o facebook está enfrentando podem afetar negativamente de alguma forma o investimento deles em tecnologia open source, ou ainda é muito cedo para pensar nisso?
 
 > acredito que não\
@@ -418,12 +430,12 @@ você acha que os problemas recentes que o facebook está enfrentando podem afet
 
 -------------------
 
-padil:\
+33. padil:\
 Voce concorda com o valor que é proposto para o desenvolvimento nativo comparado ao do react-native ?
 
 > qual valor?
 
-salarial\
+salarial
 
 >> Jabur:\
 >> :moneybag:\
@@ -431,7 +443,7 @@ salarial\
 > quem ganha mais?\
 
 nativo.\
-pensando apenas em IOS\ 
+pensando apenas em IOS
 
 > ios no Brasil é raro\
 > díficil achar devs que tenham mac aqui\
@@ -444,7 +456,7 @@ pensando apenas em IOS\
 
 -------------------
 
-gabrielrubens:\
+34. gabrielrubens:\
 pq flow e não typescript?
 
 > Flow é baseado em Occaml\
@@ -463,7 +475,7 @@ pq flow e não typescript?
 
 -------------------
 
-Saulo:\
+35. Saulo:\
 pra quem ta começando agora com react qual roadmap vc recomenda de curso/estudo?
 
 > https://github.com/entria/jobs/blob/master/skills.md\
@@ -475,7 +487,7 @@ pra quem ta começando agora com react qual roadmap vc recomenda de curso/estudo
 
 -------------------
 
-Thadeu Esteves Jr:\
+36. Thadeu Esteves Jr:\
 O que esperar para JS e React em 2018?
 
 > async iterator no js é incrível\
@@ -489,7 +501,7 @@ O que esperar para JS e React em 2018?
 
 -------------------
 
-Lucas de Assis:\
+37. Lucas de Assis:\
 react native ou PWA?
 
 > ambos\
@@ -508,7 +520,7 @@ pra um app simples que utiliza GPS. Como escolher?
 
 -------------------
 
-enieber:\
+38. enieber:\
 oq vc acha do reasonml para novos projetos?
 
 > ambos\
@@ -518,7 +530,7 @@ oq vc acha do reasonml para novos projetos?
 
 -------------------
 
-guilherme.lopes:\
+39. guilherme.lopes:\
 Porque você acha que ainda tem pessoas que utilizam ionic, mesmo em projetos novos?
 
 > medo de inovação\
@@ -534,7 +546,7 @@ Como você faz pra saber se um pacote é confiável?
 
 -------------------
 
-nicholasess:\
+40. nicholasess:\
 Quais são suas dificuldades hoje com React Native?
 
 > maiores dificuldades são no android\
@@ -546,7 +558,7 @@ Quais são suas dificuldades hoje com React Native?
 
 -------------------
 
-matheus_gsilva:\
+41. matheus_gsilva:\
 O que vc acha que será o futuro do js?
 
 > js é a melhor linguagem hoje\
@@ -556,7 +568,7 @@ O que vc acha que será o futuro do js?
 
 -------------------
 
-Marlon:\
+42. Marlon:\
 A técnica de Microfrontend está esquentando em vários blogs, você tem alguma indicação ou contra-indicação?
 
 > eu não usaria iframe \o/\
@@ -575,7 +587,7 @@ Isso não teria várias instancias do react no DOM?
 
 -------------------
 
-Erick Maeda:\
+43. Erick Maeda:\
 Com o crescimento do Flutter vc acha que irá se tornar um forte adversário do React Native?
 
 > ainda é cedo para discutir isso\
@@ -588,7 +600,7 @@ Com o crescimento do Flutter vc acha que irá se tornar um forte adversário do 
 
 -------------------
 
-Marlon:\
+44. Marlon:\
 Qual sua opinião sobre o Apollo 2?
 
 > apollo 2 melhorou bastante a performance em relação ao apollo 1\
@@ -598,7 +610,7 @@ Qual sua opinião sobre o Apollo 2?
 
 -------------------
 
-Vinicius Rangel:\
+45. Vinicius Rangel:\
 Quando você vai desenvolver um app quais as ferramentas não podem faltar?
 Ex: Redux, Native-Base etc..
 
@@ -614,7 +626,7 @@ redux não?
 
 -------------------
 
-lmsfelipe:\
+46. lmsfelipe:\
 O uso de Relay ou Apollo anula a necessidade de Redux?
 
 > voce pode continuar usando o redux para o estado local\
@@ -626,7 +638,7 @@ O uso de Relay ou Apollo anula a necessidade de Redux?
 
 -------------------
 
-guilherme.lopes:\
+47. guilherme.lopes:\
 Para react-native você já utilizou NativeBase? Usaria novamente, sim não e porque? O fato de conseguir criar layouts(themes) não é melhor para escalar do que styled-components?
 
 > sempre criamos do zero\
@@ -639,7 +651,7 @@ Para react-native você já utilizou NativeBase? Usaria novamente, sim não e po
 
 -------------------
 
-lmsfelipe:\
+48. lmsfelipe:\
 Como vc lida com o compartilhamento de componentes entre projetos?
 
 > ainda não compartilhamos muitos components entre projetos\
@@ -652,7 +664,7 @@ Como vc lida com o compartilhamento de componentes entre projetos?
 
 -------------------
 
-Bruno Sato:\
+49. Bruno Sato:\
 O voce acha sobre a lib react-native-web tem que evoluir muito ainda?
 
 > react-native-web tem bastante potencial\
@@ -663,7 +675,7 @@ O voce acha sobre a lib react-native-web tem que evoluir muito ainda?
 
 -------------------
 
-Erick Maeda:\
+50. Erick Maeda:\
 Qual a melhor solução para navegação de screens no react-native ?
 
 > react-navigation?\
@@ -673,7 +685,7 @@ Qual a melhor solução para navegação de screens no react-native ?
 
 -------------------
 
-brunolemos:\
+51. brunolemos:\
 @sibelius qual o impacto do open source na sua vida profissional?
 
 > open source tem um impacta incrível na vida profissional\
@@ -692,7 +704,7 @@ brunolemos:\
 
 -------------------
 
-Jabur:\
+52. Jabur:\
 Recomenda Backends as a service como por exemplo Firebase ou GraphCool?
 
 > neh\
@@ -705,7 +717,7 @@ Recomenda Backends as a service como por exemplo Firebase ou GraphCool?
 
 -------------------
 
-Bruno Sato:\
+53. Bruno Sato:\
 Como você estuda coisas novas relacionadas a desenvolvimento?
 
 > leio bastante\
@@ -721,7 +733,7 @@ Como você estuda coisas novas relacionadas a desenvolvimento?
 
 -------------------
 
-lmsfelipe:\
+54. lmsfelipe:\
 Formik ou ReduxForm? Por que?
 
 > formik\
@@ -737,7 +749,7 @@ Formik ou ReduxForm? Por que?
 
 -------------------
 
-Felipe Oliveira:\
+55. Felipe Oliveira:\
 É possível compartilhar elementos entre aplicações web e nativas? Se sim, teria alguma dica para dar?
 
 > o que a galera tem jeito é seguir a ideia do react native (edited)\
@@ -749,7 +761,7 @@ Felipe Oliveira:\
 
 -------------------
 
-tiagosouto:\
+56. tiagosouto:\
 qual a duvida mais comum ou dificuldade que vc tem observado nas comunidades?
 
 > a galera não sabe debugar muito o problema\
@@ -765,7 +777,7 @@ qual a duvida mais comum ou dificuldade que vc tem observado nas comunidades?
 
 -------------------
 
-tiagosouto:\
+57. tiagosouto:\
 quais suas principais fontes de pesquisa para solucionar problemas?
 
 > sigo todo mundo que já postou algo interessante\
@@ -776,12 +788,6 @@ quais suas principais fontes de pesquisa para solucionar problemas?
 > e interesssantes
 >>matheus_gsilva:\
 >>seguir o sibelius e as pessoas que ele retweeta é a melhor coisa :slightly_smiling_face:
-
--------------------
-
-tiagosouto:\
-quais suas principais fontes de pesquisa para solucionar problemas?
-
 > google\
 > facebook community\
 > stack overflow\
@@ -799,7 +805,7 @@ quais suas principais fontes de pesquisa para solucionar problemas?
 
 -------------------
 
-matheus_gsilva:\
+58. matheus_gsilva:\
 Como gerenciar tempo com vida pessoal + 3000 tecnologias pra se estudar + open source? Digo, como definir o que priorizar pra estudar + o que contribuir?
 
 
@@ -813,7 +819,7 @@ Como gerenciar tempo com vida pessoal + 3000 tecnologias pra se estudar + open s
 
 -------------------
 
-rgazeredo:\
+59. rgazeredo:\
 Em questão de produtividade, vale a pena usar Expo? Ou melhor fazer tudo na mão com react-native init <PROJECT>?
 
 > gosto de fazer tudo na mão\
@@ -828,7 +834,7 @@ Em questão de produtividade, vale a pena usar Expo? Ou melhor fazer tudo na mã
 
 -------------------
 
-lmsfelipe:\
+60. lmsfelipe:\
 Quais foram suas maiores dificuldades ao abrir sua empresa?
 
 > o @rturk lidou com a parte mais burocratica\
@@ -843,7 +849,7 @@ Quais foram suas maiores dificuldades ao abrir sua empresa?
 
 -------------------
 
-Jabur:\
+61. Jabur:\
 Porque evitar cocoapods?
 
 > uma das coisas que tornou o js incrível\
@@ -858,7 +864,7 @@ Porque evitar cocoapods?
 
 -------------------
 
-Thadeu Esteves Jr:\
+62. Thadeu Esteves Jr:\
 Redux-Sagas ainda faz sentido?
 
 > faz\
@@ -873,7 +879,7 @@ Redux-Sagas ainda faz sentido?
 
 -------------------
 
-Vinicius Rangel:\
+63. Vinicius Rangel:\
 O que você acha dessa disseminação do javascript? algo bom ou ruim?
 O pessoal fala de tanto nome que eu não faço ideia do que é, parece que tem uma infinidade de técnicas e pacotes que se eu parar pra ver tudo eu não consigo produzir
 
@@ -886,7 +892,7 @@ O pessoal fala de tanto nome que eu não faço ideia do que é, parece que tem u
 
 -------------------
 
-Bruno Sato:\
+64. Bruno Sato:\
 O voce acha das abstracoes de redux?
 
 > toda abstração tem problemas\
@@ -896,7 +902,7 @@ O voce acha das abstracoes de redux?
 
 -------------------
 
-Thadeu Esteves Jr:\
+65. Thadeu Esteves Jr:\
 Existem muitas maneiras de estruturar(folders) um projeto do zero, qual a melhor forma na atualidade?
 
 > deixamos todo o source dentro da pasta `/src`\
@@ -913,7 +919,7 @@ Existem muitas maneiras de estruturar(folders) um projeto do zero, qual a melhor
 
 -------------------
 
-padil:\
+66. padil:\
 Você acha que o react-native vai matar o desenvolvimento nativo ?
 
 > tudo que for layout vai ser feito no RN\
@@ -924,7 +930,7 @@ Você acha que o react-native vai matar o desenvolvimento nativo ?
 
 -------------------
 
-guilherme.lopes:\
+67. guilherme.lopes:\
 O que você acha do WebAssembly, já teve oportunidade de mexer? Como você acha que vai ficar o futuro da web e fora da web com ele?
 
 > ainda não mexi com isso\
@@ -935,7 +941,7 @@ O que você acha do WebAssembly, já teve oportunidade de mexer? Como você acha
 
 -------------------
 
-tiagosouto:\
+68. tiagosouto:\
 você acha que os problemas recentes que o facebook está enfrentando podem afetar negativamente de alguma forma o investimento deles em tecnologia open source, ou ainda é muito cedo para pensar nisso?
 
 > acredito que não\
@@ -945,7 +951,7 @@ você acha que os problemas recentes que o facebook está enfrentando podem afet
 
 -------------------
 
-padil:\
+69. padil:\
 Voce concorda com o valor que é proposto para o desenvolvimento nativo comparado ao do react-native ?
 
 > qual valor?
@@ -969,7 +975,7 @@ Voce concorda com o valor que é proposto para o desenvolvimento nativo comparad
 
 -------------------
 
-gabrielrubens:\
+70. gabrielrubens:\
 pq flow e não typescript?
 
 > Flow é baseado em Occaml\
@@ -988,7 +994,7 @@ pq flow e não typescript?
 
 -------------------
 
-Saulo:\
+71. Saulo:\
 pra quem ta começando agora com react qual roadmap vc recomenda de curso/estudo?
 
 > https://github.com/entria/jobs/blob/master/skills.md\
@@ -1000,7 +1006,7 @@ pra quem ta começando agora com react qual roadmap vc recomenda de curso/estudo
 
 -------------------
 
-Thadeu Esteves Jr:\
+72. Thadeu Esteves Jr:\
 O que esperar para JS e React em 2018?
 
 > async iterator no js é incrível\
@@ -1014,7 +1020,7 @@ O que esperar para JS e React em 2018?
 
 -------------------
 
-Lucas de Assis:\
+73. Lucas de Assis:\
 react native ou PWA?
 
 > ambos\
@@ -1033,7 +1039,7 @@ pra um app simples que utiliza GPS. Como escolher?
 
 -------------------
 
-enieber:\
+74. enieber:\
 oq vc acha do reasonml para novos projetos?
 
 > ambos\
@@ -1043,7 +1049,7 @@ oq vc acha do reasonml para novos projetos?
 
 -------------------
 
-guilherme.lopes:\
+75. guilherme.lopes:\
 Porque você acha que ainda tem pessoas que utilizam ionic, mesmo em projetos novos?
 
 > medo de inovação\
