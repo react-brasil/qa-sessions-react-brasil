@@ -38,8 +38,7 @@ A técnica de Microfrontend está esquentando em vários blogs, você tem alguma
 > o @joao é o responsável por isso\
 > a dificuldade é como fazer a comunicação entre os diversos microfrontends\
 > cada 1 com tradeoffs
-
-Marlon:\
+ 
 Isso não teria várias instancias do react no DOM?
 
 > não, vc tem diversos entrypoints
@@ -82,7 +81,6 @@ Ex: Redux, Native-Base etc..
 > relay\
 > styled-components (fazemos o estilo na mão mesmo), escala melhor
 
-Vinicius Rangel:\
 redux não?
 
 > usamos redux para local state\
@@ -236,9 +234,8 @@ qual a duvida mais comum ou dificuldade que vc tem observado nas comunidades?
 > angular vs react vs vuejs por exemplo\
 > tudo depende\
 > talvez a galera não saiba qual caminho seguir para conseguir terminar o que gostaria de fazer
-
->>lucianomlima:\
->>Também adicionaria os que pulam etapas de aprendizado, mal sabem React e já querem aprender redux (sem nem mesmo entender para que serve)
+>> lucianomlima:\
+>> Também adicionaria os que pulam etapas de aprendizado, mal sabem React e já querem aprender redux (sem nem mesmo entender para que serve)
 
 -------------------
 
@@ -251,7 +248,6 @@ quais suas principais fontes de pesquisa para solucionar problemas?
 > quando mais gente vc seguir, mais chances de ver coisas legais e mais recentes primeiro\
 > o core do React sempre posta coisas legais\
 > e interesssantes
-
 >>matheus_gsilva:\
 >>seguir o sibelius e as pessoas que ele retweeta é a melhor coisa :slightly_smiling_face:
 
@@ -270,10 +266,8 @@ quais suas principais fontes de pesquisa para solucionar problemas?
 > usar o slack\
 > discord\
 > usar N slacks
-
 >>matheus_gsilva:\
 >>reactiflux  no discord tbm é uma boa
-
 > perguntar para pessoas\
 > deixar o tempo passar para voltar no problema
 
@@ -302,10 +296,8 @@ Em questão de produtividade, vale a pena usar Expo? Ou melhor fazer tudo na mã
 > tem o eject\
 > mas depois do eject seria mais fácil começar do react-native puro mesmo\
 > \o/
-
 >>rgazeredo:\
 >>exatamente, depois que dou um eject eu travo para continuar a trabalhar no projeto novamente
-
 > eu recomendo evitar cocoapods
 
 -------------------
@@ -317,12 +309,9 @@ Quais foram suas maiores dificuldades ao abrir sua empresa?
 > abrir uma empresa é fácil\
 > deixar ela rodando que é o díficil\
 > abrir e fechar é fácil
-
 >>Vinicius Rangel:\
 >>hahhahaha vdd
 >>2 contratações erradas me custaram muito caro
-
-
 >>rturk:\
 >> Cash is King. No Brasil a empresa pode ser pequena ou grande, como em qualquer lugar do mundo.. Mas é vital você fechar as contas no final do mês
 
@@ -366,7 +355,6 @@ O pessoal fala de tanto nome que eu não faço ideia do que é, parece que tem u
 > mais diversidade gera mais inovação\
 > qualquer coisa nova, sempre vai ser implementada primeiro em js\
 > depois do es6, js ficou incrível
-
 >> lucianomlima:\
 >> Você não precisa aprender tudo, você precisa aprender apenas o que formará sua stack. O resto é adicional… você usa quando necessário
 
@@ -435,20 +423,15 @@ padil:\
 Voce concorda com o valor que é proposto para o desenvolvimento nativo comparado ao do react-native ?
 
 > qual valor?
-
 >> padil:\
 >> salarial
-
 >> Jabur:\
 >> :moneybag:
-
 > quem ganha mais?
-
 >> padil:\
 >> nativo.
 >> padil:\
 >> pensando apenas em IOS
-
 > ios no Brasil é raro\
 > díficil achar devs que tenham mac aqui\
 > nativo é bem mais díficil do que react native\
@@ -512,19 +495,13 @@ react native ou PWA?
 > ainda tem muita gente fazendo apps\
 > acho válido usar analytics\
 > e medir
-
 >> rturk:\
 >> PWA ainda não funciona em IOS..
-
 >> Lucas de Assis:\
 >> pra um app simples que utiliza GPS. Como escolher?
-
-
 > app simples faz os 2\
 > eu iria para o react native\
 > ainda tem algumas polemicas com o PWA por causa da google
-
-
 >> Pedro Pessoa:\
 >> @rturk suporta, mas service workers ainda está no beta 4 . N é estavel ainda.
 
