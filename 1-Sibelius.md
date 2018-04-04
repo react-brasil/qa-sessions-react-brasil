@@ -53,7 +53,7 @@ A técnica de Microfrontend está esquentando em vários blogs, você tem alguma
  
 Isso não teria várias instancias do react no DOM?
 
-> não, vc tem diversos entrypoints\
+> não, vc tem diversos entrypoints
 >> joao:\
 >> o DOM é compartilhado\
 >> https://github.com/react-brasil/reactconfbr/issues/21#issuecomment-377065927
@@ -438,9 +438,9 @@ Voce concorda com o valor que é proposto para o desenvolvimento nativo comparad
 salarial
 
 >> Jabur:\
->> :moneybag:\
+>> :moneybag:
 
-> quem ganha mais?\
+> quem ganha mais?
 
 nativo.\
 pensando apenas em IOS
@@ -507,14 +507,14 @@ react native ou PWA?
 > ambos\
 > ainda tem muita gente fazendo apps\
 > acho válido usar analytics\
-> e medir\
+> e medir
 >> rturk:\
 >> PWA ainda não funciona em IOS..
 
 pra um app simples que utiliza GPS. Como escolher?
 > app simples faz os 2\
 > eu iria para o react native\
-> ainda tem algumas polemicas com o PWA por causa da google\
+> ainda tem algumas polemicas com o PWA por causa da google
 >> Pedro Pessoa:\
 >> @rturk suporta, mas service workers ainda está no beta 4 . N é estavel ainda.
 
